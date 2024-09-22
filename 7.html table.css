@@ -1,0 +1,13 @@
+table {
+    border: 1px solid red; /* border and color */
+    border-collapse: collapse;/*border gap removing */
+    background-color: yellow; /* background color */
+}
+td { 
+    text-align: center;/*table data center */
+    padding: 10px;/*text and border distance is padding */
+}
+th {
+    background-color: green; /* background color */
+    color: white; /* text color */
+}

@@ -1,0 +1,15 @@
+ul {
+    list-style-type: none; /* type removing */
+    overflow: hidden;
+    background-color: teal; 
+    color: white;
+    font-size: 15px; /* font size increased by font */
+}
+li {
+    float: left; /* position */
+    padding: 15px; 
+}
+li:hover {
+    background-color: white;
+    color: black;
+}

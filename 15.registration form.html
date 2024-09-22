@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <div>
+                       <!-- Name => type -->
+        <label for="fname">First Name :</label>
+        <input type="type" name="fname" id="fname" required>
+        <label for="lname">Last Name :</label>
+        <input type="type" name="lname" id="lname" required>
+        <br><br>
+                      <!-- Email  => email -->
+        <label for="email">Email Address :</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+                       <!-- Password => password -->
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+                       <!-- Gender => radio button-->
+        <label for="gname">Gender :</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="male" required>
+        <label for="male">Female</label>
+        <input type="radio" id="male" name="gender" value="Others" required>
+        <label for="male">Others</label>
+        <br><br>
+                         <!-- Hobbies => check box-->
+        <label for="hname">Hobbies :</label>
+        <input type="checkbox" name="game" id="cricket">
+        <label for="cricket">Cricket</label>
+        <input type="checkbox" name="game" id="tennis">
+        <label for="cricket">Tennis</label>
+        <input type="checkbox" name="game" id="foodball">
+        <label for="cricket">Football</label>
+        <br><br>
+                        <!--state => select => option -->
+        <label for="state">State :</label>
+        <select name="state" id="state">
+            <option value="kerala">Kerala</option>
+            <option value="tamilnad">Tamilnad</option>
+            <option value="karnataka">Karnataka</option>
+        </select>
+        <br><br>
+                     <!-- Address => textarea -->
+        <label for="address">Address :</label>
+        <textarea id="address" name="address" cols="30" rows="10"></textarea>
+        <br><br>
+                    <!-- File upload => file -->
+        <label for="ufile">Upload File :</label>
+        <input type="file" name="photo" id="photo" required>
+        <br><br>
+                    <!-- Submit button -->
+        <button type="submit">Register</button>
+    </form>
+</div>
+</body>
+</html>

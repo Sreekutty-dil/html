@@ -1,0 +1,7 @@
+body {
+    background-image: url(sample.jpg);
+    background-repeat: no-repeat;/*background image no repeat */
+    background-size: 100%;/*background size full 100% */
+    background-attachment: fixed;/* fixed */
+    
+}
